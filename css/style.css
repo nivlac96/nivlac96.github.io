@@ -185,7 +185,7 @@ a:active {
 
   @media (min-width: 768px) {
       section.resume-section {
-          min-height: 100vh;
+          min-height: 50vh;
       }
       section.resume-section .resume-item .resume-date {
           min-width: 18rem;
@@ -211,7 +211,7 @@ a:active {
                       ABOUT
 ====================================================*/
   #about {
-      background-image: url(../img/profile-banner.jpg); 
+      /* background-image: url(../img/profile-banner.jpg);  */
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
@@ -400,7 +400,7 @@ a:active {
 ======================================================*/
 
 #skills {
-    background-image: url("../img/bg-stats.jpg");
+    /* background-image: url("../img/bg-stats.jpg"); */
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -419,15 +419,16 @@ a:active {
 .skill-item {
     padding: 20px 0;
     margin-bottom: 30px;
-    background: rgba(144, 144, 144, 0.78);
+    background: rgba(200, 200, 200, 0.78);
 }
 
 .skill-item i {
-    color: #2196f3;
+    /* color: #2196f3; */
+    color: #000;
 }
 
 .skill-item h2 {
-    color: #fff;
+    color: #000;
     font-size: "hind", sans-serif;
     font-size: 35px;
     font-weight: 700;
@@ -441,6 +442,22 @@ a:active {
     /*text-transform: uppercase;*/
     font-weight: 300;
     margin-top: 0;
+}
+
+.skill-icon {
+    height:  110px;
+    width: 110px;
+}
+
+.skill-icon img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 110px;
+    /* max-height: 110px; */
+    width: auto;
+    /* height: auto; */
 }
 
 /*====================================================
