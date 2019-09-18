@@ -226,10 +226,16 @@ a:active {
 
   #about h1 {
     /*font-size: 100%;*/
+    padding-left: 3vw;
   }
 
-  #about p {
-    
+  #about div {
+    /*font-size: 100%;*/
+    padding-left: 3vw;
+  }
+
+  #about ul {
+    padding-left: 3vw;
   }
 
 /*==================================================
