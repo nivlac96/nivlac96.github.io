@@ -1,133 +1,782 @@
-<!doctype html>
-<html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Calvin Walantus</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
+author: Boostraptheme
+author URL: https://boostraptheme.com
+License: Creative Commons Attribution 4.0 Unported
+License URL: https://creativecommons.org/licenses/by/4.0/
+-->
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
+<!DOCTYPE html>
+<html lang="en">
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-        <!-- Add your site or application content here -->
-		<div class="background">
-			<div id="title">
-				<h1>Calvin Walantus</h1>
-				<h2>Game Developer</h2>
-			</div>
-			<div class="contact">
-				<span>nivlac237@gmail.com</span>|
-				<!--<span><a href="Resume.pdf">Resume</a></span>|-->
-				<span><a href="https://www.github.com/nivlac96">Github</a></span>|
-				<span><a href="https://www.linkedin.com/in/calvin-walantus-560856ba">LinkedIn</a></span>
-			</div>
-			<div>
-				<div id="description">
-					<p>I am an independent game designer and gameplay programmer based in San Francisco, California. I recieved my bachelor's in Computer Science: Computer Game Design from the University of California, Santa Cruz in June of 2018. I have built games using Unity, Phaser, and Gamemaker Studio, and have experience with C Sharp, C++, python, WebGL, JavaScript and HTML. I am interested in single-player, narrative-driven RPGs and exploration-based games, virtual and augmented reality, and both the professional and independent game design scenes in the bay area and abroad - reach out if you'd like to chat or collaborate! </p>
-				</div>
-			</div>
-		</div>
-		<div class="background" id="listContainer">
-			<div id="list">
-				<h2>Previous Projects</h2>
-				
-				<div class="workListItem">
-					<h3 class="itemTitle">Unity: <em>Flicker</em></h3>
-					<p class="itemDes"><em>Flicker</em> is a surrealist puzzle platformer with an emphasis on narrative and emotional tone. Similar to <em>Fez</em> (2012) and <em>Crush</em> (2007), the player possesses the power to switch from the third to the second dimension in order to "compress" the world. As Lead Developer on the project, I designed and created the compressible system, solved issues with the camera and character controls, and implemented dynamic audio all through Unity's C# scripting interface.</p>
-					<br>
-					<p class="promo">Check out the game website at <strong>flickergame.net</strong></p>
-					<div class="gallery">
-						<img class="center-fit" src="img/flicker/cupforest.png">
-						<img class="center-fit" src="img/flicker/walloffog.png">
-						<img class="center-fit" src="img/flicker/bookshelf.png">
-					</div>
-				</div>
+    <title>Portfolio of Calvin Walantus</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="favico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favico/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
-				<div class="workListItem">
-					<h3 class="itemTitle">Phaser.io: <em>Phoenix EQV</em></h3>
-					<p class="itemDes"><em>Phoenix Equinox V</em> is a 2D platformer where players take on the role of a gliding phoenix, created for an academic project in 2016. Working in Phaser.io with Javascript, I implemented the <a href="https://github.com/hexus/phaser-arcade-slopes">arcade-slopes plugin</a> and wrote code for scene transitions and asset management.</p>
-					<br>
-					<p class="promo"><a href="https://galaxypickle.itch.io/phoenix">Check out the game on itch.io</a></p>
-					<div class="gallery">
-						<img class="center-fit" src="img/augmentBow/fox.png">
-						<img class="center-fit" src="img/augmentBow/glide.png">
-						<img class="center-fit" src="img/augmentBow/augmentBow.png">
-					</div>
-				</div>
+    <!-- Global stylesheets -->
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="css/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
 
-				<!--<div class="workListItem">
-					<h3 class="itemTitle">Unity: <em>Control</em></h3>
-					<p class="itemDes"><em>Control</em> is an abstract 3D puzzle/exploration game developed in Unity for an academic project. Taking inspiration from titles like <em>Portal</em> and <em>Antichamber</em>, <em>Control</em> challenges players' expectations of the first-person 3D video game environment through spatial puzzles with unconventional solutions. The game features FPS-style controls, a highly dynamic and reactive audio environment, and basic UI.</p>
-					<br>
-					<p class="promo">For a playable demo, email me at: nivlac237@gmail.com</p>
-					<div class="gallery">
-						<div class="img-box">
-							<img class="center-fit" src="img/controlSS/hallway.png">
-						</div>
-						<img class="center-fit" src="img/controlSS/title.png">
-						<img class="center-fit" src="img/controlSS/arrowWall.png">
-						<img class="center-fit" src="img/controlSS/stairs.png">
-					</div>
-				</div>-->
-				
-				
-				<div class="workListItem">
-					<h3 class="itemTitle">WebGL: 3D modeling program</h3>
-					<p class="itemDes">A simple rendering program that allows the user to create 3D surface-rotation objects, and arrange them in a scene with multiple light sources, diffuse and specular lighting, and multiple types of shading. Created with WebGL, JavaScript, HTML and CSS.</p>
-					<div class="gallery">
-						<img class="center-fit" src="img/graphics/SOR.png">
-						<img class="center-fit" src="img/graphics/scene.png">
-					</div>
-				</div>
-				
-				
-				<!--<div class="workListItem">
-					<h3 class="itemTitle">GameMaker Studio: <em>Let There Be Color</em></h3>
-					<p class="itemDes">A 2D puzzle/exploration game, similar mechanically and aesthetically to the 1980 Atari classic <em>Adventure</em>. Some of the design goals were to inherently suggest the existence of hidden pathways within the world, to maintain an intriguing atmosphere and to encourage player exploration. This project was made for a Fundamentals of Game Design class using GameMaker Studio.</p>
-					<br>
-					<p class="promo">For a playable demo, email me at: nivlac237@gmail.com</p>
-					<div class="gallery">
-						<img class="center-fit" src="img/colorLand/title.png">
-						<img class="center-fit" src="img/colorLand/colorLand.png">
-						<img class="center-fit" src="img/colorLand/maze.png">
-					</div>
-				</div>-->
-				
-				
-			</div>
-		</div>
-		<div class="background" id="footer">
-			<div class="contact">
-				<span>nivlac237@gmail.com</span>|
-				<!--<span><a href="Resume.pdf">Resume</a></span>|-->
-				<span><a href="https://www.github.com/nivlac96">Github</a></span>|
-				<span><a href="https://www.linkedin.com/in/calvin-walantus-560856ba">LinkedIn</a></span>
-			</div>
-			<br>
-			<p id="info">Website created using HTML5 Boilerplate</p>
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+<body id="page-top">
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='https://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
-    </body>
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none  mx-0 px-0"><img src="img/logo-white.png" alt="" class="img-fluid"></span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+        </span>
+      </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+                </li>
+            </ul>
+        </div>
+    </nav> -->
+
+    <div class="container-fluid p-0">
+
+    <!--====================================================
+                        ABOUT
+    ======================================================-->
+      <section class="resume-section p-3 p-lg-5 d-column" id="about">
+          <!-- <div class="my-auto" > -->
+              <!-- <img src="img/logo-s.png" class="img-fluid mb-3" alt=""> -->
+              <h1 class="mb-0">CALVIN WALANTUS
+                <!-- <span class="text-primary">Bonsen</span> -->
+              </h1>
+              <div class="subheading mb-5">Gameplay Programmer, Software Engineer
+              </div>
+              <p class="section-description" >I am a game developer born, raised, and currently working in San Francisco, California. My obsession with video games started at a young age, and I have had many years’ experience developing them since.</p>
+              <p class="section-description" >This site is intended to showcase some of my projects and skills for anyone interested in my work. Feel free to reach out through email or linkedin if you’d like to chat.</p>
+              <p class="section-description"><a href="Resume_Calvin_Walantus.pdf">View my resume</a></p>
+              <p class="section-description"><a href="mailto:calvinwengineer@gmail.com">calvinwengineer@gmail.com</a></p>
+              <ul class="list-inline list-social-icons mb-0">
+                <!-- <li class="list-inline-item">
+                    <a href="#">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+                </a>
+                </li> -->
+                <li class="list-inline-item">
+                    <a href="https://www.linkedin.com/in/calvin-walantus">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
+                <!-- <li class="list-inline-item">
+                    <a href="https://twitter.com/CalvinWalantus">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li> -->
+                <li class="list-inline-item">
+                    <a href="https://github.com/nivlac96">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+            <br/>
+            <!-- <button onclick="location.href='img/profile.jpg'" class="btn btn-general btn-white" type="button">View My Resume</button> -->
+          <!-- </div> -->
+      </section>
+
+    <!--====================================================
+                        EXPERIENCE
+    ======================================================-->
+      <!-- <section class="resume-section p-3 p-lg-5 " id="experience">
+          <div class="row my-auto">
+              <div class="col-12">
+                <h2 class="  text-center">Experience</h2>
+                <div class="mb-5 heading-border"></div>
+              </div>
+              <div class="resume-item col-md-6 col-sm-12 " >
+                <div class="card mx-0 p-4 mb-5" style="border-color: #17a2b8; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
+                  <div class=" resume-content mr-auto">
+                      <h4 class="mb-3"><i class="fa fa-globe mr-3 text-info"></i> Senior Web Developer</h4>
+                      <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+                  </div>
+                  <div class="resume-date text-md-right">
+                      <span class="text-primary">March 2019 - Present</span>
+                  </div>
+                </div>
+              </div>
+              <div class="resume-item col-md-6 col-sm-12">
+                <div class="card mx-0 p-4 mb-5" style="border-color: #ffc107; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
+                  <div class="resume-content mr-auto">
+                      <h4 class="mb-3"><i class="fa fa-laptop mr-3 text-warning"></i>  Web Developer</h4>
+                      <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+                  </div>
+                  <div class="resume-date text-md-right">
+                      <span class="text-primary">December 2018 - March 2019</span>
+                  </div>
+                </div>
+              </div>
+              <div class="resume-item col-md-6 col-sm-12">
+                <div class="card mx-0 p-4 mb-5" style="border-color: #28a745; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
+                  <div class="resume-content mr-auto">
+                      <h4 class="mb-3"><i class="fa fa-camera mr-3 text-success"></i> Junior Web Designer</h4>
+                      <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+                  </div>
+                  <div class="resume-date text-md-right">
+                      <span class="text-primary">July 2017 - December 2018</span>
+                  </div>
+                </div>
+              </div>
+              <div class="resume-item col-md-6 col-sm-12">
+                <div class="card mx-0 p-4 mb-5" style="border-color: #2196f3; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
+                  <div class="resume-content mr-auto">
+                      <h4 class="mb-3"><i class="fa fa-area-chart mr-3 text-primary"></i> Web Design Intern</h4>
+                      <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+                  </div>
+                  <div class="resume-date text-md-right">
+                      <span class="text-primary">September 2018 - June 2019</span>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </section> -->
+    <!--====================================================
+                        SKILLS
+    ======================================================-->
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="row my-auto">
+            <div class="col-12">
+              <h2 class="  text-center">Software Engineering</h2>
+              <div class="mb-5 heading-border"></div>
+              <p class="section-description">When it comes to software, I believe in thoughtful design that strives for efficiency at every level, as well as organized, readable code. These tenets lead to reliable software that can be reused, improved and extended for years to come.</p>
+              <p class="section-description">I’ve worked with many languages and programming environments and am always eager to discover new ones. Below I’ve highlighted the tools I’m proficient with and am currently capable of using in a professional capacity.</p>
+
+              <div class="row text-center my-auto skills-container">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="skill-item">
+                            <!-- <i class="fa fa-css3 fa-5x"></i> -->
+                            <div class="skill-icon">
+                                <span></span>
+                                <img src="img/icons/unityFull.png"></img>
+                            </div>
+                            <h2>Unity/C#</h2>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="skill-item">
+                            <!-- <i class="fa fa-html5 fa-5x"></i> -->
+                            <div class="skill-icon">
+                                <span></span>
+                                <img src="img/icons/cppColor.png"></img>
+                            </div>
+                            <h2>C++</h2>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="skill-item">
+                            <!-- <i class="fa fa-python3 fa-5x"></i> -->
+                            <div class="skill-icon">
+                                <span></span>
+                                <img src="img/icons/pythonColor.png"></img>
+                            </div>
+                            <h2>Python</h2>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="skill-item">
+                            <!-- <i class="fa fa-html5 fa-5x"></i> -->
+                            <div class="skill-icon">
+                                <span></span>
+                                <img src="img/icons/phaser3.png"></img>
+                            </div>
+                            <h2>Phaser.io</h2>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="skill-item">
+                            <!-- <i class="fa fa-html5 fa-5x"></i> -->
+                            <div class="skill-icon">
+                                <span></span>
+                                <img src="img/icons/html5.png"></img>
+                            </div>
+                            <h2>html5/css</h2>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="skill-item">
+                            <!-- <i class="fa fa-html5 fa-5x"></i> -->
+                            <div class="skill-icon">
+                                <span></span>
+                                <img src="img/icons/flash.png"></img>
+                            </div>
+                            <h2>Actionscript</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!--====================================================
+                        PORTFOLIO
+    ======================================================-->
+      <section class="resume-section p-3 p-lg-5flex-column" id="portfolio">
+          <div class="row my-auto">
+              <div class="col-12">
+                <h2 class="  text-center">Projects</h2>
+                <div class="mb-5 heading-border"></div>
+              </div>
+              <p class="section-description">Spending most of my time staring at a text editor, it’s always rewarding to take a look at the way I finally bring art to life in games. Here I’ve highlighted some of the most significant projects of my professional and student career.</p>
+              <div class="col-md-12">
+                <div class="port-head-cont">
+                  <button class="btn btn-general btn-green filter-b" data-filter="all">All</button>
+                  <button class="btn btn-general btn-green filter-b" data-filter="cf">Customer-Facing</button>
+                  <button class="btn btn-general btn-green filter-b" data-filter="mobile">Mobile</button>
+                  <button class="btn btn-general btn-green filter-b" data-filter="research">Research</button>
+                  <button class="btn btn-general btn-green filter-b" data-filter="2d">2D</button>
+                  <button class="btn btn-general btn-green filter-b" data-filter="3d">3D</button>
+                </div>
+              </div>
+          </div>
+          <div class="row my-auto">
+
+              <!--  NEXTGAMING SLOTS   ////////////////////////// -->
+              <div class="col-sm-4 portfolio-item filter 2d cf">
+                  <a class="portfolio-link" href="#portfolioModalngslots" data-toggle="modal">
+                      <div class="caption-port">
+                          <div class="caption-port-content">
+                              <i class="fa fa-search-plus fa-3x"></i>
+                          </div>
+                      </div>
+                      <img class="img-fluid" src="img/portfolio/ngslotsbam.png" alt="">
+                  </a>
+              </div>
+
+              <!--  COIN FLIP   ////////////////////////// -->
+              <div class="col-sm-4 portfolio-item filter 2d mobile cf">
+                  <a class="portfolio-link" href="#portfolioModalcfd" data-toggle="modal">
+                      <div class="caption-port">
+                          <div class="caption-port-content">
+                              <i class="fa fa-search-plus fa-3x"></i>
+                          </div>
+                      </div>
+                      <img class="img-fluid" src="img/portfolio/cfdlogo.jpg" alt="">
+                  </a>
+              </div>
+
+              <!--  FLICKER   ////////////////////////// -->
+              <div class="col-sm-4 portfolio-item filter 3d">
+                  <a class="portfolio-link" href="#portfolioModalflicker" data-toggle="modal">
+                      <div class="caption-port">
+                          <div class="caption-port-content">
+                              <i class="fa fa-search-plus fa-3x"></i>
+                          </div>
+                      </div>
+                      <img class="img-fluid" src="img/portfolio/flicker.jpg" alt="">
+                  </a>
+              </div>
+
+              <!--  A PLACE TO BE  ////////////////////////// -->
+              <div class="col-sm-4 portfolio-item filter 3d">
+                  <a class="portfolio-link" href="#portfolioModalaptb" data-toggle="modal">
+                      <div class="caption-port">
+                          <div class="caption-port-content">
+                              <i class="fa fa-search-plus fa-3x"></i>
+                          </div>
+                      </div>
+                      <img class="img-fluid" src="img/portfolio/aptb.jpg" alt="">
+                  </a>
+              </div>
+
+              <!--  PHOENIX EQUINOX   ////////////////////////// -->
+              <div class="col-sm-4 portfolio-item filter 2d">
+                  <a class="portfolio-link" href="#portfolioModalpeqv" data-toggle="modal">
+                      <div class="caption-port">
+                          <div class="caption-port-content">
+                              <i class="fa fa-search-plus fa-3x"></i>
+                          </div>
+                      </div>
+                      <img class="img-fluid" src="img/portfolio/peqvglide.png" alt="">
+                  </a>
+              </div>
+
+              <!--  HyPED   ////////////////////////// -->
+              <div class="col-sm-4 portfolio-item filter research">
+                  <a class="portfolio-link" href="#portfolioModalhyped" data-toggle="modal">
+                      <div class="caption-port">
+                          <div class="caption-port-content">
+                              <i class="fa fa-search-plus fa-3x"></i>
+                          </div>
+                      </div>
+                      <img class="img-fluid" src="img/portfolio/hypedmario.png" alt="">
+                  </a>
+              </div>
+          </div>
+      </section>
+
+
+
+    <!--====================================================
+                           AWARDS
+    ======================================================-->
+      <!-- <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+          <div class="row my-auto">
+              <div class="col-12">
+                <h2 class="  text-center">Awards</h2>
+                <div class="mb-5 heading-border"></div>
+              </div>
+              <div class="main-award" id="award-box">
+                  <div class="award">
+                      <div class="award-icon"></div>
+                      <div class="award-content">
+                          <span class="date">Apr 2017 - Mar 2018</span>
+                          <h5 class="title">Google Analytics Certified Developer</h5>
+                          <p class="description">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac venenatis enim. Aenean hendrerit justo sed.
+                          </p>
+                      </div>
+                  </div>
+                  <div class="award">
+                      <div class="award-icon"></div>
+                      <div class="award-content">
+                          <span class="date">Apr 2018 - Mar 2019</span>
+                          <h5 class="title">Mobile Web Specialist - Google Certification</h5>
+                          <p class="description">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac venenatis enim. Aenean hendrerit justo sed.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+    <!--====================================================
+                          CONTACT
+    ======================================================-->
+      <!-- <section class="resume-section p-3 p-lg-5 d-flex flex-column">
+          <div class="row my-auto" id="contact">
+            <div class="col-md-8">
+              <div class="contact-cont">
+                <h3>CONTACT Us</h3>
+                <div class="heading-border-light"></div>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here.</p>
+              </div>
+              <div class="row con-form">
+                <div class="col-md-12">
+                  <input type="text" name="full-name" placeholder="Full Name" class="form-control">
+                </div>
+                <div class="col-md-12">
+                  <input type="text" name="email" placeholder="Email Id" class="form-control">
+                </div>
+                <div class="col-md-12">
+                  <input type="text" name="subject" placeholder="Subject" class="form-control">
+                </div>
+                <div class="col-md-12"><textarea name="" id=""></textarea></div>
+                <div class="col-md-12 sub-but"><button class="btn btn-general btn-white" role="button">Send</button></div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12 mt-5">
+              <div class="contact-cont2">
+                <div class="contact-add contact-box-desc">
+                  <h3><i class="fa fa-map-marker cl-atlantis fa-2x"></i> Address</h3>
+                  <p>25, Dist town Street, Logn <br>
+                  California, US <br></p>
+                </div>
+                <div class="contact-phone contact-side-desc contact-box-desc">
+                  <h3><i class="fa fa-phone cl-atlantis fa-2x"></i> Phone</h3>
+                  <p>800 123 3456 <br>900 123 3457</p>
+                </div>
+                <div class="contact-mail contact-side-desc contact-box-desc">
+                  <h3><i class="fa fa-envelope-o cl-atlantis fa-2x"></i> Email</h3>
+                <address class="address-details-f">
+                  Fax: 800 123 3456 <br>
+                  Email: <a href="mailto:info@themsbit.com" class="">info@themsbit.com</a>
+                </address>
+                <ul class="list-inline social-icon-f top-data">
+                  <li><a href="#" target="_empty"><i class="fa top-social fa-facebook" style="color: #4267b2; border-color:#4267b2;"></i></a></li>
+                  <li><a href="#" target="_empty"><i class="fa top-social fa-twitter" style="color: #4AB3F4; border-color:#4AB3F4;"></i></a></li>
+                  <li><a href="#" target="_empty"><i class="fa top-social fa-google-plus" style="color: #e24343; border-color:#e24343;"></i></a></li>
+                </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section> -->
+      <!--
+      <section class=" d-flex flex-column" id="maps">
+        <div id="map">
+          <div class="map-responsive">
+             <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6030.418742494061!2d-111.34563870463673!3d26.01036670629853!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1471908546569" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </section> -->
+
+<!--====================================================
+                    FOOTER
+======================================================-->
+    <section class="p-3 p-lg-5 d-flex flex-column" id="footer">
+        <p>Site created with <a href="https://boostraptheme.com">bootstrap theme</a></p>
+        <p class=""><a href="mailto:calvinwengineer@gmail.com">calvinwengineer@gmail.com</a></p>
+        <!-- <p class="" style="max-width: 500px;" >calvinwengineer@gmail.com</p> -->
+        <ul class="list-inline list-social-icons mb-0">
+            <!-- <li class="list-inline-item">
+                <a href="#">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+            </span>
+            </a>
+            </li> -->
+            <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/calvin-walantus">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+            </li>
+            <!-- <li class="list-inline-item">
+                <a href="https://twitter.com/CalvinWalantus">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+            </li> -->
+            <li class="list-inline-item">
+                <a href="https://github.com/nivlac96">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+            </li>
+        </ul>
+        <br/>
+        <br/>
+    </section>
+
+    </div>
+
+<!--====================================================
+                    PORTFOLIO MODALS
+======================================================-->
+    <div class="portfolio-modal modal fade" id="portfolioModalngslots" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                <div class="row">
+                        <div class="modal-body">
+                            <div class="title-bar">
+                              <div class="col-md-12">
+                                <h2 class="text-center">NextGaming Skill-Based Slots</h2>
+                                <div class="heading-border"></div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <img class="img-fluid img-centered" src="img/portfolio/ngslots.jpg" alt="">
+                              </div>
+                              <div class="col-md-6">
+                                <p>While working at Present Creative, I have had the chance to work extensively on NextGaming’s innovative skill-based slot machines, which combine classic arcade gameplay with chance wagering. Soon to be available at high-profile casinos in the USA, these machines have already received several awards, including Casino Player Magazine’s Best of Gaming Editor’s Choice Award in 2018.</p>
+                                <p>For this ongoing project, I am writing core gameplay mechanics and UI in Actionscript 3, creating design tools using C# and Unity, and working on hardware interface using C++.</p>
+                                <p>Learn more about this project at <a href="http://nextgaming.co">nextgaming.co</a>.</p>
+                                <!-- <ul class="list-inline item-details">
+                                    <li>Client:
+                                        <strong>
+                                          <a href="#">Techs Soft</a>
+                                        </strong>
+                                    </li>
+                                    <li>Date:
+                                        <strong>
+                                          <a href="#">April 2018</a>
+                                        </strong>
+                                    </li>
+                                    <li>Service:
+                                        <strong>
+                                          <a href="#">Web Development</a>
+                                        </strong>
+                                    </li> -->
+                                </ul>
+                                <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                    <i class="fa fa-times"></i> Close
+                                </button>
+                              </div>
+                          </div>
+                        </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModalcfd" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                <div class="row">
+                        <div class="modal-body">
+                            <div class="title-bar">
+                              <div class="col-md-12">
+                                <h2 class="text-center">Coin Flip Deluxe</h2>
+                                <div class="heading-border"></div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <img class="img-fluid img-centered" src="img/portfolio/cfdfull.jpg" alt="">
+                              </div>
+                              <div class="col-md-6">
+                                <p>A high-stakes casino product with simple double-or-nothing wagering mechanics developed at Present Creative. Built in phaser.io, developing this game presented the challenge of bringing HD animations, quality game feel and short loading times to a cross-device web app.</p>
+                                <p>The game is available to play online on any device at <a href="https://casino.mrgreen.com/en-US/game/info/coin-flip-deluxe">The Mr. Green Casino</a>.</p>
+
+                                <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                    <i class="fa fa-times"></i> Close
+                                </button>
+                            </div>
+                          </div>
+                        </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModalflicker" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                <div class="row">
+                        <div class="modal-body">
+                            <div class="title-bar">
+                              <div class="col-md-12">
+                                <h2 class="text-center">Flicker</h2>
+                                <div class="heading-border"></div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <img class="img-fluid img-centered" src="img/portfolio/flickercupforest.jpg" alt="">
+                              </div>
+                              <div class="col-md-6">
+                                    <p>This game was designed by a small team for our capstone project at UC Santa Cruz. The game explores emotional themes, has a stunning surrealist aesthetic, and employs a unique mechanic for shifting physics between the second and third dimension. Creating and designing for this mechanic in Unity meant lots of scripting for the camera, making heavy use of the Cinemachine package and vector math for the perspective transition, as well as creating a specialized character controller.</p>
+                                    <p>A fully playable download is yet to be released, however the project’s source code is available on <a href="https://github.com/nivlac96/ClosingIn">github</a>.</p>
+                                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                    <i class="fa fa-times"></i> Close
+                                </button>
+                            </div>
+                          </div>
+                        </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModalaptb" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                <div class="row">
+                        <div class="modal-body">
+                            <div class="title-bar">
+                              <div class="col-md-12">
+                                <h2 class="text-center">A Place To Be</h2>
+                                <div class="heading-border"></div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <img class="img-fluid img-centered" src="img/portfolio/aptbdamn.jpg" alt="">
+                              </div>
+                              <div class="col-md-6">
+                                <p>Made with Unity, this project was lead by artist <a href="http://www.katieagreen.com/">Katie Green</a> at the Digital Arts and New Media department at UC Santa Cruz. This game explores the violence, beauty and cyclical nature of life by allowing players to control several creatures at different places on the food chain. The game has been displayed as part of an art exhibition featuring three monitors, where each player is at a different stage in the game’s cycle. I helped create a day-and-night system that is responsive to player progress, as well as transitional levels that were ultimately cut from the final game.</p>
+                                <p>View and download the game at <a href="https://kt245.itch.io/a-place-to-be">itch.io</a>.</p>
+                                <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                <i class="fa fa-times"></i> Close
+                                </button>
+                            </div>
+                          </div>
+                        </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModalpeqv" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                <div class="row">
+                        <div class="modal-body">
+                            <div class="title-bar">
+                              <div class="col-md-12">
+                                <h2 class="text-center">Phoenix Equinox</h2>
+                                <div class="heading-border"></div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <img class="img-fluid img-centered" src="img/portfolio/peqvfox.png" alt="">
+                              </div>
+                              <div class="col-md-6">
+                                <p>A short, beautiful puzzle platformer developed by a small team at UC Santa Cruz. The player controls a phoenix with the power to resurrect forest creatures, and a unique set of movement skills to navigate a forest environment. Using phaser.io, our team designed and created our own character controller with flying mechanics and implemented a sloped tilemap system to create a satisfying tactile experience.</p>
+                                <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                    <i class="fa fa-times"></i> Close
+                                </button>
+                            </div>
+                          </div>
+                        </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModalhyped" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                <div class="row">
+                        <div class="modal-body">
+                            <div class="title-bar">
+                              <div class="col-md-12">
+                                <h2 class="text-center">HyPed and the Video Game Level Corpus</h2>
+                                <div class="heading-border"></div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <img class="img-fluid img-centered" src="img/portfolio/hypedcode.png" alt="">
+                              </div>
+                              <div class="col-md-6">
+                                    <p>HyPed is an experimental framework for modelling game characters as <a href="https://en.wikipedia.org/wiki/Hybrid_automaton">hybrid automata</a>. Through research into similar projects and hands-on coding with the python-based HyPed engine, I explored the possibilities of integrating this system with the Video Game Level Corpus, a collection of codified levels from classic 2D games, intended to be used as a training corpus for machine learning projects.</p>
+                                    <p>These projects were developed in tandem by students and faculty at the Expressive Intelligence Studio at UC Santa Cruz. Both projects are available on github.</p>
+                                    <p><a href="https://github.com/TheVGLC/TheVGLC">The VGLC</a></p>
+                                    <p><a href="https://github.com/JoeOsborn/hyped">HyPed</a></p>
+                                <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                    <i class="fa fa-times"></i> Close
+                                </button>
+                            </div>
+                          </div>
+                        </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Global javascript -->
+    <script src="js/jquery/jquery.min.js"></script>
+    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-easing/jquery.easing.min.js"></script>
+    <script src="js/counter/jquery.waypoints.min.js"></script>
+    <script src="js/counter/jquery.counterup.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+        $(document).ready(function(){
+
+        $(".filter-b").click(function(){
+            var value = $(this).attr('data-filter');
+            if(value == "all")
+            {
+                $('.filter').show('1000');
+            }
+            else
+            {
+                $(".filter").not('.'+value).hide('3000');
+                $('.filter').filter('.'+value).show('3000');
+            }
+        });
+
+        if ($(".filter-b").removeClass("active")) {
+          $(this).removeClass("active");
+        }
+        $(this).addClass("active");
+        });
+
+        // SKILLS
+        $(function () {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 2000
+            });
+
+        });
+    </script>
+</body>
+
 </html>
